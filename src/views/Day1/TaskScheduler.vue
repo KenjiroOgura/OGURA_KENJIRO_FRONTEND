@@ -113,7 +113,7 @@ function removeTask(id) {
     <div class="scheduler-content">
       <div class="task-form-section">
         <h2>Add Task</h2>
-        <form class="task-form" @keyup.enter="addTask">
+        <form class="task-form" @submit.prevent="addTask">
           <div class="form-group">
             <label for="title">Task Title</label>
             <input
@@ -122,6 +122,7 @@ function removeTask(id) {
               type="text"
               placeholder="Enter task title"
               class="form-input"
+              @keyup.enter="submit"
             />
           </div>
 
