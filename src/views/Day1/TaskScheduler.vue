@@ -155,7 +155,6 @@ function removeTask(id) {
         </div>
       </div>
 
-      <!-- Done Tasks -->
       <div class="tasks-section">
         <h2>Done Tasks ({{ doneCount }})</h2>
 
