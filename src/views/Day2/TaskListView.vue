@@ -40,9 +40,7 @@ function handleDelete(id) {
       >
         <template #meta>Due: {{ task.dueDate }}</template>
       </TaskCard>
-      <p class="empty" v-if="tasks.length === 0">
-        No tasks yet. Add one above!
-      </p>
+      <p class="empty" v-if="tasks.length === 0">No tasks yet.</p>
     </div>
   </div>
 </template>
@@ -55,7 +53,7 @@ function handleDelete(id) {
   font-family: Arial, sans-serif;
 }
 h1 {
-  color: #1b2a4a;
+  color: #175b88;
   margin-bottom: 24px;
 }
 </style>

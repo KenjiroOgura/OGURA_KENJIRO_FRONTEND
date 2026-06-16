@@ -116,7 +116,7 @@ function onDelete() {
 .task-header span.name {
   font-weight: 600;
   font-size: 15px;
-  color: #1b2a4a;
+  color: #3083c8;
 }
 .task-header .meta {
   font-size: 12px;
