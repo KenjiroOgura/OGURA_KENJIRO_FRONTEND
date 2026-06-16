@@ -232,7 +232,6 @@ function removeTask(id) {
   gap: 40px;
 }
 
-/* Task Form Section */
 .task-form-section {
   background: var(--bg);
   padding: 24px;
