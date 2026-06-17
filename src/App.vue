@@ -1,7 +1,5 @@
-<script setup lang="ts">
-import TaskScheduler from "./views/Day2/TaskListView.vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <TaskScheduler />
+  <RouterView />
 </template>
