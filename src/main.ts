@@ -1,6 +1,9 @@
 import { createApp } from "vue";
+import { createPinia } from "pinia";
 import "./style.css";
-import App from "./App.vue";
-import router from "./views/Day3/router-index";
+import TaskListView from "./views/Day4/TaskListView.vue";
 
-createApp(App).use(router).mount("#app");
+const app = createApp(TaskListView);
+
+app.use(createPinia());
+app.mount("#app");

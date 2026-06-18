@@ -54,8 +54,8 @@
 
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "./HomeView.vue";
-import TaskDetailView from "./TaskDetailView.vue";
 import AboutView from "./AboutView.vue";
+import TaskDetailView from "../Day4/TaskDetailView.vue";
 
 import TaskListView from "../Day4/TaskListView.vue";
 // TODO 1: Import your view components
@@ -64,7 +64,7 @@ import TaskListView from "../Day4/TaskListView.vue";
 // import AboutView      from '@/views/AboutView.vue'
 
 // TODO 2: Import your Pinia task store so the guard can check if a task exists
-import { useTaskStore } from "../../stores/taskStore";
+import { useTaskStore } from "./stores/taskStore.ts";
 // import { useTaskStore } from '@/stores/taskStore'
 
 const routes = [
